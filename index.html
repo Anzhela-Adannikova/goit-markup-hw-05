@@ -422,34 +422,32 @@
         </div>
         <div class="cont-e-mail">
             <p class="title-icon">Subscribe</p>
-        <form class="footer-email" name="" autocomplete="off"> 
+        <form class="footer-email" name="user-email" autocomplete="off"> 
             <label class="title-icon" for="email">
             <input class="footer-user-email" name="user-email" id="email" type="email" placeholder="E-mail" />
         </label>
-
-            <!-- <div class="form-btn"></div> -->
             <button class="form-button" type="submit">Subscribe
                 <svg class="form-icon" width="24" height="24">
                     <use href="./images/icons.svg#icon-frame"></use>
                 </svg>
-            </button>
-        
-           
+            </button>           
         </form>
        
     </div>
+        </div>
     </footer>
         <!-- ==================== #endregion Footer ==================== -->
         
         <!-- ==================== A modal window ======================= -->
         <div class="backdrop is-open">
     <div class="modal">
-        <p class="modal-text">Leave your contacts and we will call you back</p>
+        
         <button class="modal-close" type="button">
             <svg class="icon-close" width="8" height="8">
                 <use href="./images/icons.svg#icon-close"></use>
             </svg>
         </button>
+        <p class="modal-text">Leave your contacts and we will call you back</p>
         
 <form>
     <div class="form-wrapper-cont">
@@ -481,17 +479,17 @@
     </div>
     <div class="form-wrapper-con">
         <label class="form-user-label" for="user-comment">Comment</label>
-        <textarea class="form-user-comment" id="form-user-comment" placeholder="Text input"></textarea>
+        <textarea class="form-user-comment" id="user-comment" placeholder="Text input"></textarea>
     </div>
     <div class="form-wrapper-checkbox">
-        <input class="checkbox visually-hidden" type="checkbox" name="checkbox" required id="form-user-checkbox">
-        <label class="form-user-checkbox" for="form-user-checkbox"><span class="castom-checkbox"><svg width="10" height="8" class="castom-checkbox-icon">
+        <input class="checkbox visually-hidden" type="checkbox" name="user-privacy" required id="user-privacy" value="true">
+        <label class="form-user-checkbox" for="user-privacy"><span class="castom-checkbox"><svg width="10" height="8" class="castom-checkbox-icon">
             <use href="./images/icons.svg#icon-check"></use>
         </svg></span>I accept the terms and conditions of the <a href="#" class="ocean">Privacy Policy</a></label>
     </div>
-    <div class="form-btn-cont">
+    <!-- <div class="form-btn-cont"</div> -->
 <button class="form-btn-submit" type="button">Send</button>
-    </div>
+    
 </form>
     </div>
 </div> 
