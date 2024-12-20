@@ -424,35 +424,38 @@
             <p class="title-icon">Subscribe</p>
         <form class="footer-email" name="" autocomplete="off"> 
             <label class="title-icon" for="email">
-            <input name="user_email" id="email" type="email" placeholder="E-mail" />
+            <input class="footer-user-email" name="user-email" id="email" type="email" placeholder="E-mail" />
         </label>
 
-            <div class="form-btn">
+            <!-- <div class="form-btn"></div> -->
             <button class="form-button" type="submit">Subscribe
                 <svg class="form-icon" width="24" height="24">
                     <use href="./images/icons.svg#icon-frame"></use>
                 </svg>
             </button>
-        </div>
+        
            
         </form>
        
     </div>
     </footer>
         <!-- ==================== #endregion Footer ==================== -->
-<div class="backdrop is-open">
+        
+        <!-- ==================== A modal window ======================= -->
+        <div class="backdrop is-open">
     <div class="modal">
         <p class="modal-text">Leave your contacts and we will call you back</p>
-        <button type="button" class="modal-close">
+        <button class="modal-close" type="button">
             <svg class="icon-close" width="8" height="8">
                 <use href="./images/icons.svg#icon-close"></use>
             </svg>
         </button>
+        
 <form>
     <div class="form-wrapper-cont">
-        <label class="form-user-label" for="for-name">Name</label>
+        <label class="form-user-label" for="user-name">Name</label>
             <div class="form-user-icon-wraper">
-                <input class="form-user-input" type="text" id="for-name" name="for-name" required/>
+                <input class="form-user-input" type="text" id="user-name" name="user-name" required/>
             <svg class="form-user-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-user"></use>
             </svg>   
@@ -487,7 +490,7 @@
         </svg></span>I accept the terms and conditions of the <a href="#" class="ocean">Privacy Policy</a></label>
     </div>
     <div class="form-btn-cont">
-<button class="form-btn-submit" type="submit">Send</button>
+<button class="form-btn-submit" type="button">Send</button>
     </div>
 </form>
     </div>
