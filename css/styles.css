@@ -649,8 +649,8 @@ footer .icon-link:focus {
 }
 
 .form-wrapper-cont {
-    /* margin-bottom: 8px;    */
-    margin-bottom: 16px;
+    margin-bottom: 8px;   
+    /* margin-bottom: 16px; */
 }
 
 .form-user-label {
@@ -668,7 +668,7 @@ footer .icon-link:focus {
     height: 40px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
-    padding: 24px;
+    /* padding: 24px; */
     padding-left: 38px;
     outline: none;
     background-color: transparent;
@@ -726,6 +726,10 @@ footer .icon-link:focus {
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
     
+}
+
+.form-wrapper-con {
+    margin-bottom: 16px;
 }
 
 .form-wrapper-checkbox {
